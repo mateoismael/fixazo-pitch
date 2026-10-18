@@ -37,6 +37,10 @@
   .equipo b { display: block; font-size: 24px; }
   .equipo span { display: block; font-size: 19px; line-height: 1.35; margin-top: 6px; }
   .equipo small { display: block; font-size: 15px; color: var(--muted); margin-top: 8px; }
+  .capturas { display: flex; gap: 24px; align-items: center; justify-content: center; height: 640px; }
+  .capturas > img { width: 360px; height: 578px; object-fit: cover; object-position: top; border-radius: 14px; box-shadow: 0 8px 30px rgba(0,0,0,.12); }
+  .capturas div { display: grid; gap: 20px; }
+  .capturas div img { height: 300px; width: auto; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,.12); }
   .harari { display: grid; grid-template-columns: 1fr 300px; gap: 48px; align-items: center; }
   .harari figure { margin: 0; }
   .harari img { width: 300px; height: 300px; object-fit: cover; border-radius: 50%; display: block; }
@@ -163,6 +167,16 @@
       <div><img class="foto" src="img/mateo.jpg" alt="Mateo Rodríguez"><b>Mateo Rodríguez</b><span>El periódico: noticias de medios confiables, preguntas y revisión con IA</span><small>Sistemas de Información, UTEC · product builder de IA en Zeta</small></div>
       <div><img class="foto" src="img/omar.jpg" alt="Omar Roca"><b>Omar Roca</b><span>Investigación del problema y flujo del usuario</span><small>Bioingeniería, UTEC · CEO y cofundador de Praxys</small></div>
       <div><img class="foto" src="img/daniel.jpg" alt="Daniel Marron"><b>Daniel Marron</b><span>Capa de voz: transcripción, señales de la voz y modelos de Meta en servidor propio</span><small>Ingeniería de Sistemas · CTO y cofundador de NextTrip</small></div>
+    </div>
+  </section>
+
+  <section class="slide" data-notas="Esta mañana Isabel le mostró Fixazo a su salón: una mamá juntó a 11 compañeros y pagó S/ 110 para reservar Plus. La analítica de Vercel la activamos tarde, por eso todavía no mide ese uso." style="padding:40px 64px">
+    <div class="capturas">
+      <img src="img/yape.jpg" alt="Comprobante de Yape por S/ 110, 18 de octubre, 8:50 a. m.">
+      <div>
+        <img src="img/vercel-1.jpg" alt="Analítica de Vercel: 5 visitantes y 41 páginas vistas">
+        <img src="img/vercel-2.jpg" alt="Analítica de Vercel por página y dispositivo">
+      </div>
     </div>
   </section>
 
