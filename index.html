@@ -32,6 +32,8 @@
   .equipo { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
   .equipo div { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 28px; }
   .equipo .ini { width: 72px; height: 72px; border-radius: 50%; background: var(--accent); color: #fff; display: grid; place-items: center; font-family: var(--serif); font-size: 30px; font-weight: 700; margin-bottom: 16px; }
+  .equipo .foto { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; display: block; margin-bottom: 16px; }
+  .equipo .ini { width: 96px; height: 96px; }
   .equipo b { display: block; font-size: 28px; }
   .equipo span { display: block; font-size: 22px; line-height: 1.4; margin-top: 8px; }
   .equipo small { display: block; font-size: 17px; color: var(--muted); margin-top: 10px; }
@@ -159,9 +161,9 @@
   <section class="slide" data-notas="Quiénes somos y qué hizo cada uno. 10 segundos.">
     <div class="kicker">El equipo</div>
     <div class="equipo">
-      <div><span class="ini">MR</span><b>Mateo Rodríguez</b><span>El periódico: noticias de medios confiables, preguntas y revisión con IA</span><small>UTEC · product builder de IA en Zeta</small></div>
-      <div><span class="ini">OR</span><b>Omar Roca</b><span>Investigación del problema y flujo del usuario</span><small>UTEC · CEO y cofundador de Praxys</small></div>
-      <div><span class="ini">DM</span><b>Daniel Marron</b><span>Capa de voz: transcripción, señales de la voz y modelos de Meta en servidor propio</span><small>Ingeniería de Sistemas · CTO y cofundador de NextTrip</small></div>
+      <div><img class="foto" src="img/mateo.jpg" alt="Mateo Rodríguez"><b>Mateo Rodríguez</b><span>El periódico: noticias de medios confiables, preguntas y revisión con IA</span><small>UTEC · product builder de IA en Zeta</small></div>
+      <div><img class="foto" src="img/omar.jpg" alt="Omar Roca"><b>Omar Roca</b><span>Investigación del problema y flujo del usuario</span><small>UTEC · CEO y cofundador de Praxys</small></div>
+      <div><img class="foto" src="img/daniel.jpg" alt="Daniel Marron"><b>Daniel Marron</b><span>Capa de voz: transcripción, señales de la voz y modelos de Meta en servidor propio</span><small>Ingeniería de Sistemas · CTO y cofundador de NextTrip</small></div>
     </div>
   </section>
 
