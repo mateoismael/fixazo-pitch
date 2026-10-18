@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 400" role="img" aria-label="Ilustración: una niña haciendo la tarea frente a una laptop con un chat de IA">
+  <circle cx="215" cy="205" r="175" fill="#dcefe8"/>
+  <!-- silla y cuerpo -->
+  <rect x="78" y="250" width="22" height="95" rx="8" fill="#5b6a62"/>
+  <path d="M96 300 q0 -95 62 -95 q62 0 62 95 z" fill="#0d6b57"/>
+  <!-- cuello y cabeza -->
+  <rect x="148" y="186" width="20" height="22" rx="8" fill="#c98e6a"/>
+  <circle cx="158" cy="160" r="38" fill="#c98e6a"/>
+  <!-- pelo con cola -->
+  <path d="M120 162 q-2 -50 40 -52 q42 2 38 50 q-8 -26 -38 -30 q-28 4 -40 32 z" fill="#2b211c"/>
+  <path d="M118 150 q-30 18 -22 70 q14 -10 18 -34 q4 -20 4 -36 z" fill="#2b211c"/>
+  <circle cx="121" cy="147" r="7" fill="#b0602b"/>
+  <!-- cara mirando a la pantalla -->
+  <circle cx="176" cy="162" r="3.4" fill="#18221d"/>
+  <path d="M168 150 q7 -4 14 0" stroke="#2b211c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M172 180 q6 3 11 0" stroke="#7a4a33" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+  <!-- brazo hacia la laptop -->
+  <path d="M190 245 q30 8 52 30" stroke="#c98e6a" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <!-- mesa -->
+  <rect x="150" y="288" width="240" height="14" rx="7" fill="#18221d"/>
+  <rect x="360" y="300" width="14" height="60" rx="6" fill="#18221d"/>
+  <!-- laptop -->
+  <path d="M232 288 h140 l-8 -6 h-124 z" fill="#5b6a62"/>
+  <rect x="246" y="168" width="118" height="114" rx="10" fill="#18221d"/>
+  <rect x="254" y="176" width="102" height="98" rx="6" fill="#ffffff"/>
+  <!-- chat de IA en la pantalla -->
+  <rect x="262" y="186" width="58" height="14" rx="7" fill="#d6ddd7"/>
+  <rect x="280" y="208" width="68" height="34" rx="9" fill="#0d6b57"/>
+  <rect x="288" y="216" width="50" height="5" rx="2.5" fill="#dcefe8"/>
+  <rect x="288" y="226" width="38" height="5" rx="2.5" fill="#dcefe8"/>
+  <rect x="262" y="250" width="44" height="14" rx="7" fill="#d6ddd7"/>
+  <!-- cuaderno en blanco -->
+  <rect x="168" y="276" width="56" height="12" rx="3" fill="#fbefcf" transform="rotate(-4 196 282)"/>
+  <!-- duda: la tarea está, el aprendizaje no -->
+  <circle cx="214" cy="96" r="22" fill="#ffffff" stroke="#d6ddd7" stroke-width="2"/>
+  <circle cx="196" cy="124" r="6" fill="#ffffff" stroke="#d6ddd7" stroke-width="2"/>
+  <text x="214" y="105" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#b0602b">?</text>
+</svg>
